@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - BMICubeV2MULTI/Multiplexor.h  # Replace with your file path
+      - vector4.cpp
 
 jobs:
   validate-file:
