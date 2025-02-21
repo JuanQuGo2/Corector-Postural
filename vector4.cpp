@@ -15,9 +15,9 @@ public:
   Vector3(T _x, T _y, T _z) : data{_x, _y, _z} {};
   bool operator == (const thisClass& o) const{
     return
-      x == o.x &&
-      y == o.y &&
-      z == o.z;
+      x == o.x && 
+      y == o.y && 
+      z == o.z; 
   }
   thisClass& operator= (const thisClass& o) {
     x = o.x;
