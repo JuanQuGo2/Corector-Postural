@@ -18,6 +18,6 @@ jobs:
         uses: product-map/product-map-action@v1.0.17
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          expected_files: ("main.cpp", ".github/workflows/main.yml")
+          expected_files: ("vector4.cpp", "BMICubeV2MULTI/Multiplexor.h")
           user_email: 'juanquingom@gmail.com'
           target_branch: 'main'
