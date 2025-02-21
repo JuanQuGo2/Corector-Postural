@@ -1,5 +1,7 @@
 #ifndef VECTOR3_HPP
 #define VECTOR3_HPP
+#ifndef VECTOR4_HPP
+#define VECTOR4_HPP
 
 template<class T>
 class Vector3{
